@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fit.jpg'); /* Replace 'fit.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 100vh; /* Make the form full height of the viewport */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    max-width: 400px; /* Limit form width */
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Add space between labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Take up 100% width minus padding */
+    padding: 10px;
+    margin-bottom: 20px; /* Add space between input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: calc(100% - 20px); /* Take up 100% width minus padding */
+    padding: 10px;
+    margin-bottom: 20px; /* Add space between input fields */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px; /* Add space below the error message */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px; /* Add space above the "New user?" link */
+}
+
+a {
+    color: #52606f; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+.tilt-neon-he {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60px;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+.rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
